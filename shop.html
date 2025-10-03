@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Natz Market Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: #f68b1e;">Natz Market</a></div>
+            <div class="search-bar">
+                <input type="text" id="search-bar" placeholder="Search products, brands and categories">
+                <button>Search</button>
+            </div>
+            <div class="nav-links">
+                <a href="login.html">Login</a>
+                <a href="cart.html">Cart</a>
+                <a href="account.html">Account</a>
+                <a href="support.html">Support</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-container">
+            <h2>Shop</h2>
+            <div class="shop-filters">
+                <select id="category-filter" class="space-right">
+                    <option value="all">All Categories</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home</option>
+                    <option value="beauty">Beauty</option>
+                    <option value="sports">Sports</option>
+                </select>
+                <select id="sort-filter">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="name-asc">Name: A-Z</option>
+                    <option value="name-desc">Name: Z-A</option>
+                </select>
+            </div>
+            <div class="product-grid">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Natz Market. All rights reserved. | <a href="how-to-use.html">How to Use</a></p>
+    </footer>
+
+    <script src="js/settings.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+    <div id="quick-view-modal-container"></div>
+</body>
+</html>

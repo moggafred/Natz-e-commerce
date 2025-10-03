@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: #f68b1e;">Natz Market</a></div>
+            <div class="nav-links">
+                <a href="login.html">Login</a>
+                <a href="cart.html">Cart</a>
+                <a href="account.html">Account</a>
+                <a href="support.html">Support</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout-container">
+            <h2>Checkout</h2>
+            <form id="checkout-form" class="checkout-form">
+                <div class="shipping-address">
+                    <h3>Shipping Address</h3>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Address" required>
+                    <input type="text" placeholder="City" required>
+                    <input type="text" placeholder="Postal Code" required>
+                </div>
+                <div class="payment-method">
+                    <h3>Payment Method</h3>
+                    <select id="payment-method-select" class="space-bottom">
+                            <option value="credit-card">Credit Card</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="mobile-money">Mobile Money</option>
+                        </select>
+                        <div id="credit-card-form" class="space-bottom">
+                            <input type="text" placeholder="Card Number" required>
+                            <input type="text" placeholder="Expiry Date (MM/YY)" required>
+                            <input type="text" placeholder="CVV" required>
+                        </div>
+                        <div id="mobile-money-form" style="display: none;" class="space-bottom">
+                            <input type="text" placeholder="Phone Number" required>
+                            <input type="text" placeholder="Transaction ID" required>
+                        </div>
+                </div>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Natz Market. All rights reserved. | <a href="how-to-use.html">How to Use</a></p>
+    </footer>
+    <script src="js/settings.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/checkout.js"></script>
+    <div id="order-confirmation-modal-container"></div>
+</body>
+</html>
