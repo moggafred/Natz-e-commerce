@@ -1,0 +1,52 @@
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #fff;
+}
+
+.dark-theme header {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .logo {
+    color: #f68b1e;
+}
+
+.dark-theme .nav-links a {
+    color: #fff;
+}
+
+.dark-theme .categories a {
+    background-color: #1e1e1e;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .product-card {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .product-card h3 {
+    color: #fff;
+}
+
+.dark-theme .login-form, .dark-theme .register-form {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .cart-item {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .account-info, .dark-theme .order-history {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme footer {
+    background-color: #1e1e1e;
+}
